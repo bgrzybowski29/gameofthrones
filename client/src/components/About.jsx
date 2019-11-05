@@ -4,7 +4,7 @@ export default function About() {
 
   return (
     <main className="main">
-      <h1>Welcome to my about page</h1>
+      <h1 id="about">Welcome to my about page</h1>
     </main>
   )
 }

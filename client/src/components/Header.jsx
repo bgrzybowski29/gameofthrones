@@ -4,12 +4,12 @@ export default function Header(props) {
 
   return (
     <header>
-      <h1>Application Name</h1>
+      <h1>GOT FULL STACK</h1>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/">Characters</Link>
+        <Link to={`/new`}>Create</Link>
         <Link to="/about">About</Link>
       </nav>
     </header>
   )
 }
-

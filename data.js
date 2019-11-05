@@ -1,52 +1,21 @@
 const data = [
   {
-    "name": "Daenerys Targaryen",
-    "quote": "Lannister, Targaryen, Baratheon, Stark, Tyrell... they're all just spokes on a wheel. This one's on top, then that one's on top, and on and on it spins, crushing those on the ground.",
-    "fun_fact": "The Dothraki khaleesi (queen) and Targaryen princess. She and her brother are the only surviving members of the Targaryen family, and she grows from a frightened girl to a confident ruler, while still maintaining her kindness, over the course of the novel.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Daenerys_Targaryen_with_Dragon-Emilia_Clarke.jpg"
-  },
-  {
-    "name": "Jon Snow",
-    "quote": "If I fall, don't bring me back.",
-    "fun_fact": "Ned Stark’s bastard son. Since Catelyn is not his mother, he is not a proper member of the Stark family, and he often feels himself an outsider. He is also a highly capable swordsman and thinker, with a knack for piercing observations.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Jon_Snow_Season_8.png"
-  },
-  {
-    "name": "Arya Stark",
-    "quote": "A girl is Arya Stark of Winterfell. And I'm going home.",
-    "fun_fact": "The youngest Stark girl and a wild, willful, but very intelligent child. What the ten-year-old Ayra lacks in her sister’s refinement, she makes up for with skill in swordfighting and riding. Arya rejects the idea of a woman’s role being to marry and have babies.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Arya_Stark-Maisie_Williams.jpg"
-  },
-  {
-    "name": "Ned Stark",
-    "quote": "The man who passes the sentence should swing the sword",
-    "fun_fact": "The Lord of Winterfell and new Hand of the King. A devoted father and dutiful lord, he is best characterized by his strong sense of honor, and he strives to always do what is right, regardless of his personal feelings.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Ned_Stark-Sean_Bean.jpg"
-  },
-  {
-    "name": "Jaime Lannister",
-    "quote": "The things I do for love.",
-    "fun_fact": "Brother to Tyrion and Cersei, as well as Cersei’s lover. Jaime is arrogant, short-tempered, and rash, but he’s also a gifted swordsman. He is widely mistrusted and called Kingslayer because he murdered the previous king.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Jaime_Lannister-Nikolaj_Coster-Waldau.jpg"
-  },
-  {
-    "name": "Tyrion Lannister",
-    "quote": "I have a tender spot in my heart for cripples, bastards and broken things.",
-    "fun_fact": "A small man with a giant intellect and sharp tongue. Tyrion does not pity himself but rather accepts his shortcomings as a little person and turns them to his advantage. He loves his family but recognizes their greed and ambition.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Tyrion_Lannister-Peter_Dinklage.jpg"
-  },
-  {
     "name": "Samwell Tarly",
-    "quote": "I read it in a book.",
-    "fun_fact": " A new recruit to the Night’s Watch who is fat and cowardly but very smart. Sam loves to read and eat but hates to fight, and he quickly becomes one of Jon Snow’s closest companions at the Wall.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Samwell_Tarly-John_Bradley.jpg"
+    "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572751355/samwell_togtto.jpg",
+    "fun_fact": "A new recruit to the Night’s Watch who is fat and cowardly but very smart. Sam loves to read and eat but hates to fight, and he quickly becomes one of Jon Snow’s closest companions at the Wall.",
+    "quote": "I read it in a book."
   },
-  {
-    "name": "Ygritte",
-    "quote": "You know nothing, Jon Snow.",
-    "fun_fact": "Ygritte was a woman of the Free Folk who lived north of the Wall. She was part of Mance Rayder's army and became the lover of Jon Snow.",
-    "image_url": "https://en.wikipedia.org/wiki/File:Ygritte-Rose_Leslie.jpg"
-  },
+  { "name": "Jaime Lannister", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572751355/jamie_chjwnc.jpg", "fun_fact": "Brother to Tyrion and Cersei, as well as Cersei’s lover. Jaime is arrogant, short-tempered, and rash, but he’s also a gifted swordsman. He is widely mistrusted and called Kingslayer because he murdered the previous king.", "quote": "The things I do for love." },
+  { "name": "Missande", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572754910/missandei_ljzcal.jpg", "fun_fact": "Missandei was originally a polyglottic slave who served as an interpreter to Kraznys mo Nakloz of Astapor, until she was freed by Daenerys Targaryen, serving as her trusted advisor and handmaiden.", "quote": "I serve my queen because I want to serve my queen. Because I believe in her." },
+  { "name": "Melisandre", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572754909/melisandre_f55aom.jpg", "fun_fact": " Melisandre, often referred to as the Red Woman, was a Red Priestess in the religion of R'hllor, the Lord of Light, and had been a close counselor to Stannis Baratheon in his campaign to take the Iron Throne. ", "quote": "The night is dark and full of terrors, old man, but the fire burns them all away." },
+  { "name": "Margaery Tyrell", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572754687/Margaery_lquz92.jpg", "fun_fact": "Margaery is the only daughter of Lady Alerie Tyrell and Lord Mace Tyrell, the Lord Paramount of the Reach. The Reach is one of the constituent regions of the Seven Kingdoms and House Tyrell is one of the Great Houses of the realm. Margaery was raised in privilege in the family seat and regional capital of Highgarden. She is close to her brother, Ser Loras Tyrell, the Knight of Flowers. She is also close to her handmaidens, Sera Durwell and Mira Forrester, who followed her to King's Landing from Highgarden. She is said to be as beautiful as she is clever.", "quote": "No. I want to be the Queen." },
+  { "name": "Cersei Lannister", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572754911/cersi_gc6ern.jpg", "fun_fact": "Queen Cersei I Lannister was the twentieth ruler of the Seven Kingdoms and the widow of King Robert Baratheon, with whom she had her sole trueborn child. She was the daughter of Lord Tywin Lannister, twin sister of Ser Jaime Lannister and elder sister of Tyrion Lannister. She was involved in an incestuous relationship with Jaime, who was secretly the father of her three bastard children, Joffrey, Myrcella and Tommen, as well as an unborn child.", "quote": "When you play the game of thrones, you win or you die. There is no middle ground." },
+  { "name": "Daenerys Targaryen", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572749287/DaenerysTargaryen_p2qtfn.jpg", "fun_fact": "The Dothraki khaleesi (queen) and Targaryen princess. She and her brother are the only surviving members of the Targaryen family, and she grows from a frightened girl to a confident ruler, while still maintaining her kindness, over the course of the novel.", "quote": "Lannister, Targaryen, Baratheon, Stark, Tyrell... they're all just spokes on a wheel. This one's on top, then that one's on top, and on and on it spins, crushing those on the ground." },
+  { "name": "Jon Snow", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572749287/jonsnow_s6y5cu.jpg", "fun_fact": "Ned Stark’s bastard son. Since Catelyn is not his mother, he is not a proper member of the Stark family, and he often feels himself an outsider. He is also a highly capable swordsman and thinker, with a knack for piercing observations.", "quote": "If I fall, don't bring me back." },
+  { "name": "Ygritte", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572751355/ygrette_ypbrhk.jpg", "fun_fact": "Ygritte was a woman of the Free Folk who lived north of the Wall. She was part of Mance Rayder's army and became the lover of Jon Snow.", "quote": "You know nothing, Jon Snow." },
+  { "name": "Arya Stark", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572751355/arya_jfetrs.jpg", "fun_fact": "The youngest Stark girl and a wild, willful, but very intelligent child. What the ten-year-old Ayra lacks in her sister’s refinement, she makes up for with skill in swordfighting and riding. Arya rejects the idea of a woman’s role being to marry and have babies.", "quote": "A girl is Arya Stark of Winterfell. And I'm going home." },
+  { "name": "Ned Stark", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572751355/eddard_y22km4.jpg", "fun_fact": "The Lord of Winterfell and new Hand of the King. A devoted father and dutiful lord, he is best characterized by his strong sense of honor, and he strives to always do what is right, regardless of his personal feelings.", "quote": "The man who passes the sentence should swing the sword" },
+  { "name": "Tyrion Lannister", "image_url": "https://res.cloudinary.com/dmmle0sbm/image/upload/v1572751355/tyiron_w8okjz.jpg", "fun_fact": "A small man with a giant intellect and sharp tongue. Tyrion does not pity himself but rather accepts his shortcomings as a little person and turns them to his advantage. He loves his family but recognizes their greed and ambition.", "quote": "I have a tender spot in my heart for cripples, bastards and broken things." },
 ];
 
 module.exports = {
